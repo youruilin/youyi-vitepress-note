@@ -11,12 +11,12 @@ export default defineConfig({
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "./logo2.png" }],
   ],
-  base: "/patient-h5-note/",
+  base: "/youyi-vuepress-note/",
   lastUpdated: true,
   themeConfig: {
     logo: "/logo2.png",
     editLink: {
-      pattern: 'https://github.com/zhousg/patient-h5-note/edit/master/docs/:path',
+      pattern: 'https://github.com/youruilin/youyi-vuepress-note/edit/main/docs/:path',
       text: '帮我修正'
     },
     algolia: {
@@ -31,10 +31,10 @@ export default defineConfig({
       { text: "优医问诊", link: "/project/" },
     ],
     // search: true,
-    socialLinks: [{ icon: "github", link: "https://github.com/zhousg/consult-patient-h5-vue3-ts-pinia-vant" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/youruilin" }],
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2022-present Shugang Zhou ITCAST",
+      copyright: "Copyright © 2025-present youruilin ITCAST",
     },
     lastUpdatedText: "更新",
     sidebar: {
