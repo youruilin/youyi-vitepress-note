@@ -11,12 +11,12 @@ export default defineConfig({
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "./logo2.png" }],
   ],
-  base: "/youyi-vuepress-note/",
+  base: "/youyi-vitepress-note/",
   lastUpdated: true,
   themeConfig: {
     logo: "/logo2.png",
     editLink: {
-      pattern: 'https://github.com/youruilin/youyi-vuepress-note/edit/main/docs/:path',
+      pattern: 'https://github.com/youruilin/youyi-vitepress-note/edit/main/docs/:path',
       text: '帮我修正'
     },
     algolia: {
